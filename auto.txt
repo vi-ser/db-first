@@ -1,0 +1,18 @@
+Tabella: auto
+
+id: SMALLINT, PK
+marca: VARCHAR(30), NOT NULL
+modello: VARCHAR(30), NOT NULL
+carrozzeria: VARCHAR(30), NULL
+chilometraggio: MEDIUMINT, NULL
+anno: YEAR, NULL
+proprietari: SMALLINT, NULL
+carburante: VARCHAR(30), NULL
+cambio: VARCHAR (30), NULL
+potenza: SMALLINT, NULL
+cilindrata: SMALLINT, NULL
+prezzo: INT, NOT NULL
+finanziamento: SMALLINT, NOT NULL
+
+
+_____________________
