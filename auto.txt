@@ -1,18 +1,22 @@
 Tabella: auto
 
-id: SMALLINT, PK
+id: SMALLINT, PK, AUTO INCREMENT
 marca: VARCHAR(30), NOT NULL
 modello: VARCHAR(30), NOT NULL
+targa: VARCHAR(7), NULL, UNIQUE
+condizioni: TEXT, NOT NULL
 carrozzeria: VARCHAR(30), NULL
+colore: VARCHAR(30), NULL
 chilometraggio: MEDIUMINT, NULL
 anno: YEAR, NULL
-proprietari: SMALLINT, NULL
-carburante: VARCHAR(30), NULL
+n_proprietari: SMALLINT, NULL
+tipo_motore: VARCHAR(30), NULL
+classe_emissioni: VARCHAR(10), NULL
 cambio: VARCHAR(30), NULL
 potenza: SMALLINT, NULL
 cilindrata: SMALLINT, NULL
-prezzo: INT, NOT NULL
-finanziamento: SMALLINT, NOT NULL
+prezzo: DECIMAL(8,2), NOT NULL
+disponibilita: TINYINT(1), NOT NULL
 
 
 _____________________
